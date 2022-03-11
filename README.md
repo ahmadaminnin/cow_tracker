@@ -29,7 +29,6 @@ Cow tracking implemented with YOLOv4, SORT, and TensorFlow. This study is taken 
 ## Result
 <p align="center"><img src="data/helpers/result.jpg"\></p>
 
-
 ## Getting Started
 To get started, install the proper dependencies either via Anaconda or Pip. I recommend Anaconda route for people using a GPU as it configures CUDA toolkit version for you.
 
