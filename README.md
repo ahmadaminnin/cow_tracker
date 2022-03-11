@@ -3,9 +3,9 @@
 Cow tracking implemented with YOLOv4, SORT, and TensorFlow. This study is taken from https://github.com/theAIGuysCode/yolov4-deepsort and modified to be applicable for tracking herd of cows. In consideration of high-speed processing, the appearance features used in deepsort are removed.
 
 ## Demo of Cow Tracker
-<p align="center"><img src="data/helpers/demo.gif"\></p>
+<p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
 
-<p align="center"><img src="data/helpers/cars.gif"\></p>
+<p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
 
 ## Getting Started
 To get started, install the proper dependencies either via Anaconda or Pip. I recommend Anaconda route for people using a GPU as it configures CUDA toolkit version for you.
@@ -61,7 +61,7 @@ The output flag allows you to save the resulting video of the object tracker run
 
 ## Resulting Video
 
-<p align="center"><img src="data/helpers/all_classes.gif"\></p>
+<p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
 
 
 ### Reference  
