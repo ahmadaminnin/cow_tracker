@@ -2,9 +2,28 @@
 
 Cow tracking implemented with YOLOv4, SORT, and TensorFlow. This study is taken from https://github.com/theAIGuysCode/yolov4-deepsort and modified to be applicable for tracking herd of cows. In consideration of high-speed processing, the appearance features used in deepsort are removed.
 
-## Demo of Cow Tracker
+## Demo of Cow Tracker compared with SORT and DeepSORT
+
+### SORT #1
 <p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
 
+### DeepSORT #1
+<p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
+
+### Cow Tracker #1
+<p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
+
+
+### SORT #2
+<p align="center"><img src="data/helpers/demo_cow_tracker2.gif"\></p>
+
+### DeepSORT #2
+<p align="center"><img src="data/helpers/demo_cow_tracker2.gif"\></p>
+
+### Cow Tracker #2
+<p align="center"><img src="data/helpers/demo_cow_tracker2.gif"\></p>
+
+## Result
 <p align="center"><img src="data/helpers/demo_cow_tracker2.gif"\></p>
 
 ## Getting Started
@@ -51,9 +70,8 @@ python save_model.py --model yolov4
 
 # Run yolov4 deep sort object tracker on video
 python object_tracker.py --video ./data/video/cow.mp4 --output ./outputs/cow_tracking.mp4 --model yolov4
-<!-- 
-# Run yolov4 deep sort object tracker on webcam (set video flag to 0)
-python object_tracker.py --video 0 --output ./outputs/webcam.avi --model yolov4 -->
+
+
 ```
 The output flag allows you to save the resulting video of the object tracker running so that you can view it again later. Video will be saved to the path that you set. (outputs folder is where it will be if you run the above command!)
 
