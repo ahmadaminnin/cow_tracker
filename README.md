@@ -64,10 +64,8 @@ Download pre-trained yolov4.weights file: https://drive.google.com/open?id=1cewM
 
 Copy and paste yolov4.weights from your downloads folder into the 'data' folder of this repository.
 
-If you want to use yolov4-tiny.weights, a smaller model that is faster at running detections but less accurate, download file here: https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
-
 ## Running the Tracker with YOLOv4
-To implement the object tracking using YOLOv4, first we convert the .weights into the corresponding TensorFlow model which will be saved to a checkpoints folder. Then all we need to do is run the object_tracker.py script to run our object tracker with YOLOv4, DeepSort and TensorFlow.
+To implement the object tracking using YOLOv4, first we convert the .weights into the corresponding TensorFlow model which will be saved to a checkpoints folder. Then all we need to do is run the object_tracker.py script to run our cow tracker with YOLOv4, Sort and TensorFlow.
 ```bash
 # Convert darknet weights to tensorflow model
 python save_model.py --model yolov4 
@@ -84,6 +82,7 @@ The output flag allows you to save the resulting video of the object tracker run
 ## Resulting Video
 
 <p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
+<p align="center"><img src="data/helpers/demo_cow_tracker2.gif"\></p>
 
 
 ### Reference  
