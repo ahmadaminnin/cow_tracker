@@ -246,16 +246,6 @@ def main(_argv):
         names = np.array(names)
         count = len(names)
 
-        shapes = frame.copy()
-
-        if FLAGS.count:
-            text  =  "Frame: "+str(frame_num)
-            cv2.rectangle(shapes, (5, 5), (5 + (len(str(text)))*16, 40), (20,210,4), -1)
-            alpha = 0.5
-            cv2.addWeighted(frame, alpha, shapes, 1 - alpha, 0,frame)
-            cv2.putText(frame,  text,(15, 30),0, 0.75, (255,255,255),2)
- 
-
         # delete detections that are not in allowed_classes
         bboxes = np.delete(bboxes, deleted_indx, axis=0)
         scores = np.delete(scores, deleted_indx, axis=0)
@@ -279,6 +269,8 @@ def main(_argv):
 
         # update tracks
         for track in tracker.tracks:
+            # if not track.is_confirmed() or track.time_since_update > 1:
+            #     continue 
             bbox = track.to_tlbr()
             class_name = track.get_class()
             
@@ -299,6 +291,16 @@ def main(_argv):
         # calculate frames per second of running detections
         fps = 1.0 / (time.time() - start_time)
         fps_all.append(fps)
+        fps_str =  "{:.2f}".format(fps)
+        shapes = frame.copy()
+
+        if FLAGS.count:
+            text  =  "CowTracker; "+fps_str+" FPS"
+            cv2.rectangle(shapes, (5, 5), (5 + (len(str(text)))*16, 40), (20,210,4), -1)
+            alpha = 0.5
+            cv2.addWeighted(frame, alpha, shapes, 1 - alpha, 0,frame)
+            cv2.putText(frame,  text,(15, 30),0, 0.75, (255,255,255),2)
+ 
         # if frame_num % frame_skip == 0:
         obj = obj + num_objects
         print(frame_num,"object detected" , num_objects, "total", obj)
