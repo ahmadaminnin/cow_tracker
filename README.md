@@ -14,7 +14,7 @@ Cow tracking implemented with YOLOv4, SORT, and TensorFlow. This study is taken 
 <p align="center"><img src="data/helpers/deepsort1.gif"\></p>
 
 ### Cow Tracker #1
-<p align="center"><img src="data/helpers/cow_tracker1.gif"\></p>
+<p align="center"><img src="data/helpers/cowtracker1.gif"\></p>
 
 
 ### SORT #2
@@ -24,7 +24,7 @@ Cow tracking implemented with YOLOv4, SORT, and TensorFlow. This study is taken 
 <p align="center"><img src="data/helpers/deepsort2.gif"\></p>
 
 ### Cow Tracker #2
-<p align="center"><img src="data/helpers/cow_tracker2.gif"\></p>
+<p align="center"><img src="data/helpers/cowtracker2.gif"\></p>
 
 ## Result
 <p align="center"><img src="data/helpers/result.jpg"\></p>
