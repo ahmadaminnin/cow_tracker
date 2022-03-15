@@ -3,10 +3,11 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11YcqqZ1lj9ALbwDRnGnOpnCdBZ3MLx9L?usp=sharing)
 
 
-Cow tracking implemented with YOLOv4, SORT, and TensorFlow. This study is taken from https://github.com/theAIGuysCode/yolov4-deepsort and modified to be applicable for tracking herd of cows. In consideration of high-speed processing, the appearance features used in DeepSORT are removed.
+Cow tracking implemented with YOLOv4, SORT, and TensorFlow. This study is copied from https://github.com/theAIGuysCode/yolov4-deepsort and modified to be applicable for tracking herd of cows. In consideration of high-speed processing, the appearance features used in DeepSORT are removed.
 
-## My Thesis (in Japanese)
-[aminnin_sotsuron](data/helpers/aminnin_sotsuron.pdf)
+## My Graduation Thesis (in Japanese)
+  * [Thesis](data/helpers/aminnin_sotsuron.pdf)
+  * [Presentation](data/helpers/aminnin_presen.pdf)  
 
 ## Demo of Cow Tracker compared with SORT and DeepSORT
 
