@@ -80,8 +80,8 @@ The output flag allows you to save the resulting video of the object tracker run
 
 ## Resulting Video (Demo)
 
-<p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
-<p align="center"><img src="data/helpers/demo_cow_tracker2.gif"\></p>
+<p align="center"><img src="data/helpers/cowtracker1.gif"\></p>
+<p align="center"><img src="data/helpers/cowtracker2.gif"\></p>
 
 
 ### Reference  
