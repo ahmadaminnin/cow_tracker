@@ -11,7 +11,7 @@ Cow tracking implemented with YOLOv4, SORT, and TensorFlow. This study is copied
 
 ## Demo of Cow Tracker compared with SORT and DeepSORT
 Video is screen recorded from https://explore.org/livecams/farm-sanctuary/cattle-pond-pasture-farm-sanctuary
-Research benchmark is based on ID switch rate and FPS.
+and the research benchmark is based on ID switch rate and FPS.
 
 ### SORT #1
 <p align="center"><img src="data/helpers/sort1.gif"\></p>
