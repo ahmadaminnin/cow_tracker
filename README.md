@@ -78,7 +78,7 @@ The output flag allows you to save the resulting video of the object tracker run
 
 
 
-## Resulting Video
+## Resulting Video (Demo)
 
 <p align="center"><img src="data/helpers/demo_cow_tracker.gif"\></p>
 <p align="center"><img src="data/helpers/demo_cow_tracker2.gif"\></p>
@@ -88,3 +88,7 @@ The output flag allows you to save the resulting video of the object tracker run
 
    Huge shoutout goes to The AI Guy for creating the yolov4-tensorflow-deepsort for this repository as reference:
   * [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort)
+
+### Contact
+
+Please contact me at ahmadaminin@gmail.com if you had any question or problem.
