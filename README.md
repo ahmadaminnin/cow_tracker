@@ -1,5 +1,6 @@
 # cow_tracker
 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11YcqqZ1lj9ALbwDRnGnOpnCdBZ3MLx9L?usp=sharing)
 
 
