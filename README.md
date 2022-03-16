@@ -3,7 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11YcqqZ1lj9ALbwDRnGnOpnCdBZ3MLx9L?usp=sharing)
 
 
-Cow tracking implemented with YOLOv4, DeepSORT, and TensorFlow. This study is copied from https://github.com/theAIGuysCode/yolov4-deepsort and edited/modified to be applicable for tracking herd of cows, suitable with their behaviour. This code also is applicable on a fixed camera only. In consideration of high-speed processing, the appearance features used in DeepSORT are removed.
+Cow tracking implemented with YOLOv4, DeepSORT, and TensorFlow. This study is modified version of [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort) by [The AI Guy](https://github.com/theAIGuysCode) to be applicable for tracking herd of cows, suitable with their behaviour. This code also is applicable on a fixed camera only. In consideration of high-speed processing, the appearance features used in DeepSORT are removed.
 
 ## My Graduation Thesis (in Japanese)
   * [Thesis](data/helpers/aminnin_sotsuron.pdf)
