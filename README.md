@@ -41,6 +41,7 @@ To get started, install the proper dependencies either via Anaconda or Pip. I re
 
 ```bash
 cd cow_tracker/
+```
 
 ### Conda (Recommended)
 
