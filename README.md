@@ -39,6 +39,9 @@ and this work's benchmark is based on ID switch rate and FPS.
 ## Getting Started
 To get started, install the proper dependencies either via Anaconda or Pip. I recommend Anaconda route for people using a GPU as it configures CUDA toolkit version for you.
 
+```bash
+cd cow_tracker/
+
 ### Conda (Recommended)
 
 ```bash
