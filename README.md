@@ -81,7 +81,7 @@ To implement the object tracking using YOLOv4, first we convert the .weights int
 python save_model.py --model yolov4 
 
 # Run yolov4 deep sort object tracker on video
-python object_tracker.py --video ./data/video/cow.mp4 --output ./outputs/cow_tracker.mp4 --model yolov4 --count
+python object_tracker.py --video ./data/video/cow.mp4 --output ./outputs/cow_tracker.avi --model yolov4 --count
 
 
 ```
