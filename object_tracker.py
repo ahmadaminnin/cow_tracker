@@ -303,8 +303,8 @@ def main(_argv):
  
         # if frame_num % frame_skip == 0:
         obj = obj + num_objects
-        print(frame_num,"object detected" , num_objects, "total", obj)
-        # print(frame_num,"FPS: %.2f" % fps)
+        # print(frame_num,"object detected" , num_objects, "total", obj)
+        print(frame_num,"FPS: %.2f" % fps)
         result = np.asarray(frame)
         result = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
         
