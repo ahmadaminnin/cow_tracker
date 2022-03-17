@@ -101,9 +101,9 @@ The output flag allows you to save the resulting video of the object tracker run
 
 ### Reference and Credit
 
-   Huge shoutout and credit goes to The AI Guy for creating the yolov4-tensorflow-deepsort for this repository's reference:
+   Huge shoutout and credit goes to [The AI Guy](https://github.com/theAIGuysCode) for creating the yolov4-tensorflow-deepsort for this repository's reference:
   * [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort)
 
 ### Contact
 
-Please contact me at ahmadaminin@gmail.com if you had any question or problem.
+Feel free to contact me at ahmadaminin@gmail.com if you had any question or problem.
