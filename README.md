@@ -4,7 +4,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11YcqqZ1lj9ALbwDRnGnOpnCdBZ3MLx9L?usp=sharing)
 
 
-This work is modified version of [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort) by [The AI Guy](https://github.com/theAIGuysCode), to be applicable for tracking herd of cows, suitable with their behaviour. This code is only applicable on a fixed camera recording. In consideration of high-speed processing, the appearance features used in DeepSORT are removed, which turns it likely same as its earlier version, [SORT](https://github.com/abewley/sort).
+This work is modified version of [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort) by [The AI Guy](https://github.com/theAIGuysCode) to be applicable for tracking herd of cows, suitable with their behaviour. This code is only applicable on a fixed camera recording. In consideration of high-speed processing, the appearance features used in DeepSORT are removed, which turns it likely same as its earlier version, [SORT](https://github.com/abewley/sort).
 
 ## My Graduation Thesis (in Japanese)
   * [Thesis](data/helpers/aminnin_sotsuron.pdf)
